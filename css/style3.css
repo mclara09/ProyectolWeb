@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Open+Sans+Condensed:300|Raleway|Source+Sans+Pro&display=swap');
 :root{
     box-sizing: border-box;
 }
@@ -24,6 +25,11 @@ body {
   
 
 }
+.Formu1 .formulario{
+  border-radius: 25px 30px 25px;
+  border: 3px blue dashed;
+  font-family: 'Raleway', sans-serif;
+}
   .formulario{
   line-height : 40px;
   background-color: rgb(108, 158, 160);
@@ -37,6 +43,7 @@ body {
   form{
       text-align: center;
       align-content: center;
+     
   }
   h1{
  
@@ -46,7 +53,7 @@ body {
     
     text-align: center;
     color: whitesmoke;
-  
+    border-radius: 25px 25px 0px 0px;
 
   }
   h3{
@@ -61,6 +68,10 @@ body {
    
     height: 2.5em;
     width: 25em;
+   
+  }
+  .user input{
+    border-radius: 10px;
   }
   .usuario {
    
@@ -71,7 +82,7 @@ body {
   .ingresar {
     margin-top: 1em;
      height: 2.5em;
-     width: 20.5em;
+     width: 10em;
      background-color: rgb(75, 119, 119);
      
   }
