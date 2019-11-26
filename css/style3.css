@@ -1,0 +1,80 @@
+:root{
+    box-sizing: border-box;
+}
+
+*, ::before, ::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+  
+   
+}
+
+body {
+
+    background-color: #ffdd90;
+    background-image: url("/Imagenes/img13.jpg");
+   background-size: 100%;
+  }
+.Formu1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.9;
+  
+
+}
+  .formulario{
+  line-height : 40px;
+  background-color: rgb(108, 158, 160);
+  align-content: center;
+  width: 30%;
+  height: 25em;
+  margin-top:6em ;
+  
+ 
+  }
+  form{
+      text-align: center;
+      align-content: center;
+  }
+  h1{
+ 
+    background-color: rgb(7, 4, 58);
+    size: 100%;
+    height: 2em;
+    
+    text-align: center;
+    color: whitesmoke;
+  
+
+  }
+  h3{
+      text-align: center;
+      color: rgb(255, 255, 255);
+  }
+ p{
+     text-align: center;
+ }
+  
+  .user {
+   
+    height: 2.5em;
+    width: 25em;
+  }
+  .usuario {
+   
+    height: 2.5em;
+    width: 20.5em;
+  }
+
+  .ingresar {
+    margin-top: 1em;
+     height: 2.5em;
+     width: 20.5em;
+     background-color: rgb(75, 119, 119);
+     
+  }
+  p{
+
+}
